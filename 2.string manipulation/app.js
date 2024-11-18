@@ -8,5 +8,9 @@ console.log(str.trim()); //it will trim the spaces from both sizes of string if 
 
 // padding
 let padStr = "123456789";
-console.log(padStr.slice(4).padStart(padStr.length, "*"));
-console.log(padStr.slice(0, 4).padEnd(padStr.length, "*"));
+// let last4Digit = padStr.slice(-4);
+console.log(padStr.slice(padStr.length).padStart(padStr.length, "?"));
+// console.log(last4Digit.padStart(5, "*")); //*6789
+// console.log(last4Digit.padStart(last4Digit.length + 5, "*")); //*****6789
+// console.log(padStr.length);
+// console.log(padStr.slice(0, 4).padEnd(padStr.length, "*"));
