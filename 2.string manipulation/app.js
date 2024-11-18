@@ -14,3 +14,4 @@ console.log(padStr.slice(padStr.length).padStart(padStr.length, "?"));
 // console.log(last4Digit.padStart(last4Digit.length + 5, "*")); //*****6789
 // console.log(padStr.length);
 // console.log(padStr.slice(0, 4).padEnd(padStr.length, "*"));
+
